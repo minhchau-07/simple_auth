@@ -125,4 +125,4 @@ mongosh
 use cookieApp
 
 db.cookies.find().pretty()
-![Cookies](public/results/cookie.png)
+![Cookie](public/results/cookie.png)
