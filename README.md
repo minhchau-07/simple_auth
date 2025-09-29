@@ -117,3 +117,12 @@ Removes cookie from DB and clears client cookie.
 Response: "Logged out."
 
 After logout, calling /profile will return No cookie found.
+
+## Cookie in MongoDB
+After login, open another terminal and connect to MongoDB:
+mongosh
+
+use cookieApp
+
+db.cookies.find().pretty()
+![Cookies](public/results/cookie.png)
