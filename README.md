@@ -50,15 +50,15 @@ Auth tab → choose Basic Auth → enter admin / 12345.
 
 
 -Expected Results:
-![Secure No Header](public/results/sercure_noheader.png)
+![Secure No Header](public/results/secure_noheader.png)
 Without header → Authentication required. (401)
 
 
-![Secure Fail](public/results/sercure_fail.png)
+![Secure Fail](public/results/secure_fail.png)
 Wrong credentials → Access denied. (403)
 
 
-![Secure Success](public/results/sercure_success.png)
+![Secure Success](public/results/secure_success.png)
 Correct credentials → You have accessed a protected resource 🎉
 
 ## 2. Cookie-based Authentication (cookie_auth.js)
