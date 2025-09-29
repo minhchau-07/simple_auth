@@ -120,6 +120,7 @@ After logout, calling /profile will return No cookie found.
 
 ## Cookie in MongoDB
 After login, open another terminal and connect to MongoDB:
+
 mongosh
 
 use cookieApp
